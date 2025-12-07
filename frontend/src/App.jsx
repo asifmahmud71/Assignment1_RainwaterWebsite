@@ -6,7 +6,7 @@ import RegistrationPage from './components/RegistrationPage';
 import AdminPage from './components/AdminPage';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('admin');
+  const [currentPage, setCurrentPage] = useState('home');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
