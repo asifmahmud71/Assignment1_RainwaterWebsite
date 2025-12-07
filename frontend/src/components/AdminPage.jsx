@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Trash2, Eye, EyeOff, LogOut, Users } from 'lucide-react';
 import ErrorAlert from './ErrorAlert';
 
-const VITE_API_URL = import.meta.VITE_API_URL || 'http://localhost:5000/api';
+const VITE_API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 function AdminPage() {
   const [authenticated, setAuthenticated] = useState(false);
